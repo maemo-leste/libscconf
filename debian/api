@@ -1,0 +1,6 @@
+interface: libscconf
+scope: Internal
+state: unstable
+type: library
+libs-pkg: libscconf0
+dev-pkg: libscconf-dev

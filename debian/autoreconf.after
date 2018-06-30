@@ -1,0 +1,17 @@
+e96777fd6c7b449d6af80aa706beb739  ./Makefile
+b9f20635f0e27f005290029aaaa29500  ./write.c
+93c2bd4de578671a838e2a608362c5fe  ./test-conf.c
+d005a49f1123cc46ca820599ae70dd16  ./scconf.exports
+09e0d316ce571abf0d242a3f38328ff7  ./parse.c
+a5d3af0c113f7ee52dd58c3c546d3620  ./sclex.c
+f44dd2876641872c92e6c13e5b97e2cf  ./compat_strlcpy.c
+d41d8cd98f00b204e9800998ecf8427e  ./config.h
+1803fa9c2c3ce8cb06b4861d75310742  ./LICENSE
+786f346e9912fbfb8f55e6e092a587d2  ./common/compat_strlcpy.h
+3f3e58a4e235335e899ee7c524d076d8  ./.gitignore
+c6fd1ab122b010fd123276650a11e362  ./scconf.h
+e75105c2fa49955ac88b449573d93695  ./README.upstream
+dbeada1ab562e94910067dbd33f7fc9b  ./scconf.c
+c67d14f005d9306f88a9aa24823d54a3  ./internal.h
+da7e844aca892e2c9cd9131f873c34ea  ./lex-parse.l
+38e327547046d0363210b9b4ddb85843  ./README.scconf

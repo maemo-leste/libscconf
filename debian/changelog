@@ -1,0 +1,38 @@
+libscconf (0.18.0-1) unstable; urgency=low
+
+  * Version synced with upstream
+  * port to debhelper 9
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Sat, 30 Jun 2018 18:05:23 +0300
+
+libscconf (0.11.11-3+0m6) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 0.11.11-3+0m6
+
+ -- Matti Kosola <matti.1.kosola@nokia.com>  Wed, 18 Aug 2010 12:42:59 +0300
+
+libscconf (0.11.11-3) unstable; urgency=low
+
+  * Added debian/api file
+  * Debian packaging fixes
+
+ -- Simo Piiroinen <simo.piiroinen@nokia.com>  Tue, 17 Aug 2010 12:48:52 +0300
+
+libscconf (0.11.11-2) unstable; urgency=low
+
+  * Debian packaging fixes
+
+ -- Simo Piiroinen <simo.piiroinen@nokia.com>  Thu, 17 Dec 2009 13:28:13 +0200
+
+libscconf (0.11.11-1) unstable; urgency=low
+
+  * Version synced with upstream
+
+ -- Simo Piiroinen <simo.piiroinen@nokia.com>  Fri, 04 Dec 2009 11:29:39 +0200
+
+libscconf (0.1) unstable; urgency=low
+
+  * Initial release
+
+ -- Yauheni Kaliuta <yauheni.kaliuta@nokia.com>  Mon, 10 Nov 2008 14:33:39 +0200

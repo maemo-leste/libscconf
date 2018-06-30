@@ -1,0 +1,24 @@
+Source: libscconf
+Priority: extra
+Maintainer: Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.8.0
+Section: libs
+
+Package: libscconf0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: library for handling scconf files (shared library)
+ The scconf system is a small system library for handling
+ scconf files. Why should anyone care about scconf format?
+ It is a handy format for short pieces of structured data.
+
+Package: libscconf-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, libscconf0 (= ${binary:Version})
+Description: library for handling scconf files (development files)
+ The scconf system is a small system library for handling
+ scconf files. Why should anyone care about scconf format?
+ It is a handy format for short pieces of structured data.
