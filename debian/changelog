@@ -1,3 +1,9 @@
+libscconf (0.18.0-2) unstable; urgency=low
+
+  * export the needed symbols
+
+ -- Ivaylo Dimitrov <ivo.g.dimitrov.75@gmail.com>  Mon, 02 Jul 2018 18:56:31 +0300
+
 libscconf (0.18.0-1) unstable; urgency=low
 
   * Version synced with upstream
