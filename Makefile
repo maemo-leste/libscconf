@@ -18,13 +18,12 @@ LDFLAGS  +=
 LDLIBS   += -Wl,--as-needed
 
 %.pic.o : CFLAGS += -fPIC
-%.pic.o : CFLAGS += -fvisibility=hidden
 %.pic.o : %.c ; $(CC) -c -o $@ $< $(CPPFLAGS) $(CFLAGS)
 
 %.o     : %.c ; $(CC) -c -o $@ $< $(CPPFLAGS) $(CFLAGS)
 
 lib%$(SO) : LDFLAGS += -Wl,-soname,$@
-lib%$(SO) : ; $(CC) -shared -o $@ $^ $(LDFLAGS) $(LDLIBS)
+lib%$(SO) : ; $(CC) -shared -o $@ $^ -Wl,--version-script,scconf.version $(LDFLAGS) $(LDLIBS)
 lib%.a    : ; $(AR) ru $@ $^
 
 SRCS = scconf.c parse.c sclex.c write.c compat_strlcpy.c
